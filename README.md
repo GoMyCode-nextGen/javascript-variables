@@ -69,16 +69,21 @@ More Practice
  return Math.floor(Math.random() * (n + 1)) 
  }
 ```
- Read and test both of the functions in your console (copy or write the code into your main.js file, and then invoke the functions from the console) and affirm that you understand how they work; 
+ Read and test both of the functions in your console (copy or write the code into your main.js file, and then invoke the functions from the console) and affirm that 
+ you understand how they work; 
  then, answer the following questions: 
  At present, the guess should be between 0 and 5. 
- We can think of 5 as the upper bound of the guess. How many times is the upper bound repeated? What if we wanted to change the upper bound to 6? 
+ We can think of 5 as the upper bound of the guess.
+ How many times is the upper bound repeated? What if we wanted to change the upper bound to 6? 
  How many changes would be required? 
  Create a variable called upperBound to hold the upper bound, and then reference it instead of the number 5. 
  If you were asked to change the upper bound to some other number (e.g. 7), you should only have to make one change. 
  Modify guessMyNumber so that if the guess is incorrect, guessMyNumber includes the correct guess in its output, 
-  e.g. 'Nope! The correct number was: X' (where X would have been the correct number).
-2.At present, the guessing game picks a new random number every time it is 'played' (invoked). Now that you know how to make information persistent between function invocations, change the guessing game so that it picks a random number once and allows you to guess until you get the correct answer.
+ e.g. 'Nope! The correct number was: X' (where X would have been the correct number).
+
+  
+2.At present, the guessing game picks a new random number every time it is 'played' (invoked).
+Now that you know how to make information persistent between function invocations, change the guessing game so that it picks a random number once and allows you to guess until you get the correct answer.
 
 3.it would be really cool if, after the answer was guessed, the message included the number of guesses it had taken to find the answer; for example, 'You guessed my number in 3 guesses.'
 
