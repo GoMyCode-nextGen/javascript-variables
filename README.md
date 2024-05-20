@@ -1,10 +1,10 @@
 # javascript-variables
 
-Variables || W1.D4.01
+Variables 
 Exercises
 Basic Requirments
 1.Below we have variable declarations--where we make a statement about what the variables are. Fix each of the variable declarations in a console -- some are syntactically wrong, some disobey style guidelines, and some are just weird.
-
+```js
  var 'animal' = 'monkey'; 
  var 'monkey' = animal; 
  var x= 15; 
@@ -12,6 +12,7 @@ Basic Requirments
  var var = 'y3ni?'; 
  var true = false; 
  var isTenEven = 10 % 2 = 0;
+```
 2.Perform the following in the console:
 
  Create a variable firstName and assign your first name to it. 
@@ -19,7 +20,7 @@ Basic Requirments
  Do you have a middle name? If so, repeat the process. 
  Create a variable fullName and assign your full name to it by using the above variables.
 3.For each of the following code blocks, use a whiteboard or pen and paper to reason about what the value of x is supposed to be on the last line. Once you have arrived at a conclusion that you are comfortable with, enter the lines into a console and check your answer. Was your hypothesis correct? If not, understand why (talk with a classmate, or ask for help).
-
+```js
  var x = 5; 
  x + 10; 
  x; // => ??? 
@@ -41,8 +42,9 @@ Basic Requirments
  x + 17; 
  x = x + y; 
  x; // => ???
+```
 4.Write a function called counter that, when invoked, always returns a number that is one more than the previous invocation. For instance:
-
+```js
  function counter() { 
  // TODO: your code here 
  } 
@@ -50,10 +52,11 @@ Basic Requirments
  counter(); // => 2 
  counter(); // => 3 
  // etc.
+```
 HINT: You'll need a variable for this. Where should the variable be declared?
 More Practice
 1.In a previous module you wrote a function called guessMyNumber that simulated a guessing game: the idea is that the function picks a random number between 0 and 5, and you invoke the function with your guess -- if you and the function are thinking of the same number, you win! Otherwise, the function informs you that your guess was incorrect. A version of this game might look like this (the randInt function is included for convenience):
-
+```js
  function guessMyNumber(n) { 
  if (n > 5) { 
  return 'Out of bounds! Please try a number between 0 and 5.'; 
@@ -65,6 +68,7 @@ More Practice
  function randInt(n) { 
  return Math.floor(Math.random() * (n + 1)) 
  }
+```
  Read and test both of the functions in your console (copy or write the code into your main.js file, and then invoke the functions from the console) and affirm that you understand how they work; 
  then, answer the following questions: 
  At present, the guess should be between 0 and 5. 
